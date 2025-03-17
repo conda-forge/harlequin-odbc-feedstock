@@ -1,5 +1,5 @@
 {% set name = "harlequin-odbc" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/harlequin_odbc-{{ version }}.tar.gz
-  sha256: e69872ffbc86893d26ae1d9602b200e40b04d0b18a84e5d06d2b525e6ea10d69
+  sha256: c12ea98101ba5dffe212df2d5fbe0aef2e786eaa58d03d911bc3bbf89491be01
 
 build:
   noarch: python
