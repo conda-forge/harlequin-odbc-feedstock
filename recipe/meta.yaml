@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - poetry-core
+    - hatchling
     - pip
   run:
-    - python >={{ python_min }},<4.0
+    - python >={{ python_min }}
     - harlequin >=1.25,<3
     - pyodbc >=5.0,<6
 
